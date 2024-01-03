@@ -6,11 +6,11 @@ This is a collection of guides for app-free (script-based) productivity automati
 **Disclaimer:** These work for my system, but modify the steps as you see fit! I'm not an expert and I just figured things out by reading online (e.g., Stack Overflow) and piecing together what works for me.
 
 ## Navigation
-1. [Automation 1: Schedule a URL to open every X o'clock](#automation-1)
+1. [Automation 1: Schedule a URL to open at recurring times](#automation-1)
 2. [Automation X: Under construction](#automation-x)
 3. [Questions?](#questions)
 
-## Automation 1: Schedule a URL to open every X o'clock <a name="automation-1"></a>
+## Automation 1: Schedule a URL to open at recurring times <a name="automation-1"></a>
 
 This schedules your calendar/task list/whatever URL to open in full screen mode via your default browser. It involves (1) [writing a bash script](#bash-1) then (2) [scheduling a cron job](#cron-2) that runs the script every X time.
 
@@ -63,7 +63,7 @@ Note: the following steps assume you'd like to do stuff via command line, but yo
 
 7. Type `crontab -e` to schedule a cron job. Apparently, there are other ways to schedule a script, but this is the simplest I've found that works for me.
    
-8. Press `i` to enter insert mode, then schedule a job by adding the appropriate line in cron syntax. You can use [Crontab](https://crontab.guru/) to help you write the first part of the expression. In my case, I wanted my Google Calendar to open at the start of every hour, so I used:
+8. Press `i` to enter insert mode, then schedule a job by adding the appropriate line in cron syntax. You can use [Crontab](https://crontab.guru/) to help you write the expression. In my case, I wanted my Google Calendar to open at the start of every hour, so I used:
 
     ```
     0 * * * * /Users/[my_username]/bash/gcal
