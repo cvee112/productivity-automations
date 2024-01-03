@@ -12,7 +12,7 @@ This is a collection of guides for productivity automations in OS X.
 
 ## Automation 1: Schedule a URL to open every X o'clock <a name="automation-1"></a>
 
-This schedules your calendar/task list/whatever URL to open in full screen mode via your default browser. Broadly, this involves (1) writing a bash script then (2) scheduling a cron job that runs the script every X time.
+This schedules your calendar/task list/whatever URL to open in full screen mode via your default browser. It involves (1) writing a bash script then (2) scheduling a cron job that runs the script every X time.
 
 ### Write a bash script <a name="bash-1"></a>
 
