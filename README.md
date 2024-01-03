@@ -36,7 +36,7 @@ Note: the following steps assume you'd like to do stuff via command line, but yo
     vim filename.sh
     ```
 
-5. **(If you're using vim)** Press `i` for insert mode, then input something like:
+4. **(If you're using vim)** Press `i` for insert mode, then input something like:
 
     ```bash
     #!/bin/bash
@@ -51,13 +51,19 @@ Note: the following steps assume you'd like to do stuff via command line, but yo
     - You can use a different browser via `open -a browsername URL` as in `open -a firefox https://google.com`.
     - You can remove the second line if you don't want to go full screen.
 
-7. **(If you're using vim)** Press <kbd>Esc</kbd> to go back to normal mode, then type `:wq` to save what you wrote (w) and exit (q). Use `q!` if you don't want to save what you wrote and just want to exit instead.
+5. **(If you're using vim)** Press <kbd>Esc</kbd> to go back to normal mode, then type `:wq` to save what you wrote (w) and exit (q). Use `q!` if you don't want to save what you wrote and just want to exit instead.
+   
+6. _(Optional)_ Test the script by typing the script name (if you're in the directory that contains it) or typing out the path to the script. For example, the script above is named gcal, so I can execute it by literally just entering:
+
+    ```
+    gcal
+    ```
 
 ### Schedule a cron job <a name="cron-2"></a>
 
-5. Type `crontab -e` to schedule a cron job. Apparently, there are other ways to schedule a script, but this is the simplest I've found that works for me.
+7. Type `crontab -e` to schedule a cron job. Apparently, there are other ways to schedule a script, but this is the simplest I've found that works for me.
    
-6. Press `i` to enter insert mode, then schedule a job by adding the appropriate line in cron syntax. You can use [Crontab](https://crontab.guru/) to help you write the first part of the expression. In my case, I wanted my Google Calendar to open at the start of every hour, so I used:
+8. Press `i` to enter insert mode, then schedule a job by adding the appropriate line in cron syntax. You can use [Crontab](https://crontab.guru/) to help you write the first part of the expression. In my case, I wanted my Google Calendar to open at the start of every hour, so I used:
 
     ```
     0 * * * * /Users/[my_username]/bash/gcal
@@ -69,11 +75,11 @@ Note: the following steps assume you'd like to do stuff via command line, but yo
     30 21 * * * /Users/[my_username]/bash/marvin
     ```
 
-7. Press <kbd>Esc</kbd> then type `:wq` to save and exit. Afterwards, you'll be prompted to allow Terminal to administer your computer - choose OK so that it works properly.
+9. Press <kbd>Esc</kbd> then type `:wq` to save and exit. Afterwards, you'll be prompted to allow Terminal to administer your computer - choose OK so that it works properly.
 
 ### Final notes <a name="final-notes-3"></a>
 
-8. You're done! Feel free to test this out by using a time that's like a minute or two away from your current time, just so that you'd see that it works as intended. P.S. After this, when you open Terminal, you might get notification saying "You have mail." If you want to clear that, just input `mail` to read the mail, keep on pressing <kbd>Enter</kbd> until you've read all the mail (if there are multiple), then input `q` to exit.
+10. You're done! Feel free to test this out by using a time that's like a minute or two away from your current time, just so that you'd see that it works as intended. P.S. After this, when you open Terminal, you might get notification saying "You have mail." If you want to clear that, just input `mail` to read the mail, keep on pressing <kbd>Enter</kbd> until you've read all the mail (if there are multiple), then input `q` to exit.
 
 ## Automation X: Under construction
 
