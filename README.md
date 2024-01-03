@@ -10,7 +10,9 @@ This is a collection of guides for productivity automations in OS X.
 1. [Write a bash script](#bash-1)
 2. [Schedule a cron job](#cron-2)
 3. [Final notes](#final-notes-3)
+   
 [Automation X: Under construction](#tbc)
+
 [Questions?](#questions)
 
 ## Automation 1: Schedule a URL to open every X o'clock <a name="automation-1"></a>
