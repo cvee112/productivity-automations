@@ -20,7 +20,7 @@ Note: the following steps assume you'd like to do stuff via command line, but yo
 
 1. Open **Terminal**.
 
-2. (Optional) Navigate to a location where you'd like to store your scripts via `cd` (e.g., `cd ~/bash` just because I have a bash folder for scripts).
+2. (_Optional)_ Navigate to a location where you'd like to store your scripts via `cd` (e.g., `cd ~/bash` just because I have a bash folder for scripts).
 
 3. Create a bash script using vim (or nano - whatever you prefer): 
 
