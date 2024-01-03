@@ -7,7 +7,7 @@ This is a collection of guides for app-free (script-based) productivity automati
 
 ## Navigation
 1. [Automation 1: Schedule a URL to open every X o'clock](#automation-1)
-2. [Automation X: Under construction](#tbc)
+2. [Automation X: Under construction](#automation-x)
 3. [Questions?](#questions)
 
 ## Automation 1: Schedule a URL to open every X o'clock <a name="automation-1"></a>
@@ -83,7 +83,7 @@ Note: the following steps assume you'd like to do stuff via command line, but yo
 
     P.S. After this, when you open Terminal, you might get notification saying "You have mail." If you want to clear that, just input `mail` to read the mail, keep on pressing <kbd>Enter</kbd> until you've read all the mail (if there are multiple), then input `q` to exit.
 
-## Automation X: Under construction
+## Automation X: Under construction <a name="automation-x"></a>
 
 I'll add to this as I create more automations for myself!
 
