@@ -79,7 +79,9 @@ Note: the following steps assume you'd like to do stuff via command line, but yo
 
 ### Final notes <a name="final-notes-3"></a>
 
-10. You're done! Feel free to test this out by using a time that's like a minute or two away from your current time, just so that you'd see that it works as intended. P.S. After this, when you open Terminal, you might get notification saying "You have mail." If you want to clear that, just input `mail` to read the mail, keep on pressing <kbd>Enter</kbd> until you've read all the mail (if there are multiple), then input `q` to exit.
+10. You're done! Feel free to test this out by using a time that's a minute or two away from your current time, just to check that it works as intended.
+
+    P.S. After this, when you open Terminal, you might get notification saying "You have mail." If you want to clear that, just input `mail` to read the mail, keep on pressing <kbd>Enter</kbd> until you've read all the mail (if there are multiple), then input `q` to exit.
 
 ## Automation X: Under construction
 
