@@ -1,7 +1,7 @@
 # Productivity Automations in OS X
 This is a collection of guides for productivity automations in OS X.
 
-Disclaimer: What follows works for my system, but please modify the steps as you see fit. I'm not an expert and I just figured this out by reading online and piecing together what works for me, so the guides here are mainly for people who don't have much coding experience but want to implement productivity automations via code. While this guide is specific to OS X, modifying parts should make this work in -nix systems as well.
+**Disclaimer:** What follows works for my system, but please modify the steps as you see fit. I'm not an expert and I just figured this out by reading online and piecing together what works for me, so the guides here are mainly for people who don't have much coding experience but want to implement productivity automations via code. While this guide is specific to OS X, modifying parts should make this work in Linux as well.
 
 ## Automation 1: Schedule a URL to open every X o'clock
 
@@ -50,7 +50,7 @@ Note: the following steps assume you'd like to do stuff via command line, but yo
 
 5. Type `crontab -e` to schedule a cron job. Apparently, there are other ways to schedule a script, but this is the simplest I've found that works for me.
    
-6. Press `i` again to enter insert mode, then schedule a job by adding the appropriate line in cron syntax. You can use [Crontab](https://crontab.guru/) to help you write the first part of the expression. In my case, I wanted my Google Calendar to open at the start of every hour, so I used:
+6. Press `i` to enter insert mode, then schedule a job by adding the appropriate line in cron syntax. You can use [Crontab](https://crontab.guru/) to help you write the first part of the expression. In my case, I wanted my Google Calendar to open at the start of every hour, so I used:
 
     ```
     0 * * * * /Users/[my_username]/bash/gcal
