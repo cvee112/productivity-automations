@@ -1,7 +1,7 @@
 # Productivity Automations in macOS
 This is a collection of guides for productivity automations in macOS.
 
-**Who this is for:** People who don't have much coding experience but want to implement basic productivity automations without downloading an app. While I wrote what follows with macOS (OS X) in mind, modifying parts should make things work in Linux as well.
+**Who this is for:** People who don't have much coding experience but want to implement basic productivity automations without downloading an app. While I wrote what follows with macOS in mind, modifying parts should make things work in Linux as well.
 
 **Disclaimer:** These work for my system, but modify the steps as you see fit! I'm not an expert and I just figured things out by reading online and piecing together what works for me. 
 
