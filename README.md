@@ -3,6 +3,8 @@ This is a collection of guides for productivity automations in OS X.
 
 **Disclaimer:** What follows works for my system, but please modify the steps as you see fit. I'm not an expert and I just figured this out by reading online and piecing together what works for me, so the guides here are mainly for people who don't have much coding experience but want to implement productivity automations via code. While this guide is specific to OS X, modifying parts should make this work in Linux as well.
 
+{:toc}
+
 ## Automation 1: Schedule a URL to open every X o'clock
 
 This schedules your calendar/task list/whatever URL to open in full screen mode via your default browser. Broadly, this involves (1) writing a bash script then (2) scheduling a cron job that runs the script every X time.
