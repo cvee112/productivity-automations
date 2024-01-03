@@ -51,7 +51,7 @@ Note: the following steps assume you'd like to do stuff via command line, but yo
     - You can use a different browser via `open -a browsername URL` as in `open -a firefox https://google.com`.
     - You can remove the second line if you don't want to go full screen.
 
-5. **(If you're using vim)** Press <kbd>Esc</kbd> to go back to normal mode, then type `:wq` to save what you wrote (w) and exit (q). Use `q!` if you don't want to save what you wrote and just want to exit instead.
+5. **(If you're using vim)** Press <kbd>Esc</kbd> to go back to normal mode, then type `:wq` to save what you wrote (w) and exit (q). Use `:q!` if you don't want to save what you wrote and just want to exit instead.
    
 6. _(Optional)_ Test the script by typing the script name (if you're still in the directory that contains it) or typing out the path to the script (if you're now in a different directory). For example, the script above is named _gcal_, so I can execute it by just entering:
 
