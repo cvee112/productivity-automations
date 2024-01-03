@@ -1,13 +1,15 @@
-# Environmental Automations in OS X
-This is a collection of guides and scripts for environmental automations in OS X
+# Productivity Automations in OS X
+This is a collection of guides for productivity automations in OS X.
 
-Disclaimer: I tested what follows for my system only. Please modify the steps as you see fit. Also, I'm not an expert and I just figured this out on my own by reading online and piecing together what works for me. The guides here are mainly for people who don't have much coding experience but want to implement environmental automations to help them with productivity and other stuff.
+Disclaimer: What follows works for my system, but please modify the steps as you see fit. I'm not an expert and I just figured this out by reading online and piecing together what works for me, so the guides here are mainly for people who don't have much coding experience but want to implement productivity automations via code. While this guide is specific to OS X, modifying parts should make this work in -nix systems as well.
 
-## Schedule your calendar/task list/whatever URL to open in full screen mode via your default browser
+## Automation 1: Schedule a URL to open every X o'clock
+
+This schedules your calendar/task list/whatever URL to open in full screen mode via your default browser. Broadly, this involves (1) writing a bash script then (2) scheduling a cron job that runs the script every X time.
 
 ### Write a bash script
 
-Note: the following steps assumes you'd like to do stuff via command line, but you can create a script using a GUI text editor as well.
+Note: the following steps assume you'd like to do stuff via command line, but you can create a script using a GUI text editor as well.
 
 1. Open **Terminal**.
 
@@ -27,7 +29,7 @@ Note: the following steps assumes you'd like to do stuff via command line, but y
     vim filename.sh
     ```
 
-5. **(If you're using vim)** Press `i` for insert mode, then input something like: (this opens GCal in day view in full screen mode via Arc, my default browser)
+5. **(If you're using vim)** Press `i` for insert mode, then input something like:
 
     ```bash
     #!/bin/bash
@@ -36,9 +38,13 @@ Note: the following steps assumes you'd like to do stuff via command line, but y
     /usr/bin/osascript -e 'tell application "System Events"' -e 'keystroke "f" using {control down, command down}' -e 'end tell' -e EOF
     ```
 
-    You scan skip adding the second line if you don't want full screen mode. Feel free to modify this part however you like!
+    This opens GCal in day view in full screen mode via Arc, my default browser. 
 
-6. **(If you're using vim)** Press <kbd>Esc</kbd> to go back to normal mode, then type `:wq` to save what you wrote (w) and exit (q). Use `q!` if you don't want to save what you wrote and just want to exit instead.
+    Feel free to modify this part however you like! For example:
+    - You can use a different browser via `open -a browsername URL` as in `open -a firefox https://google.com`.
+    - You can remove the second line if you don't want to go full screen.
+
+7. **(If you're using vim)** Press <kbd>Esc</kbd> to go back to normal mode, then type `:wq` to save what you wrote (w) and exit (q). Use `q!` if you don't want to save what you wrote and just want to exit instead.
 
 ### Schedule a cron job
 
