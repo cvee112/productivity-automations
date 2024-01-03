@@ -21,7 +21,7 @@ Disclaimer: I tested what follows for my system only. Please modify the steps as
 
 3. (If you're using vim) Press `i` for insert mode, then input something like the following (this opens GCal in day view in full screen via my default browser, Arc):
 
-    ```
+    ```bash
     #!/bin/bash
 
     open "https://calendar.google.com/calendar/u/0/r/day";
