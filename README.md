@@ -55,7 +55,7 @@ Note: the following steps assume you'd like to do stuff via command line, but yo
    
 6. _(Optional)_ Test the script by typing the script name (if you're still in the directory that contains it) or typing out the path to the script (if you're now in a different directory). For example, the script above is named _gcal_, so I can execute it by just entering:
 
-    ```
+    ```console
     gcal
     ```
 
