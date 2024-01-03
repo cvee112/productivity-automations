@@ -3,13 +3,19 @@ This is a collection of guides for productivity automations in OS X.
 
 **Disclaimer:** What follows works for my system, but please modify the steps as you see fit. I'm not an expert and I just figured this out by reading online and piecing together what works for me, so the guides here are mainly for people who don't have much coding experience but want to implement productivity automations via code. While this guide is specific to OS X, modifying parts should make this work in Linux as well.
 
-{:toc}
+## Table of Contents
+[Automation 1: Schedule a URL to open every X o'clock](#automation-1)
+- [Write a bash script](#bash-1)
+- [Schedule a cron job](#cron-2)
+- [Final notes](#final-notes-3)
+  
+[Questions?](#questions)
 
-## Automation 1: Schedule a URL to open every X o'clock
+## Automation 1: Schedule a URL to open every X o'clock <a name="automation-1"></a>
 
 This schedules your calendar/task list/whatever URL to open in full screen mode via your default browser. Broadly, this involves (1) writing a bash script then (2) scheduling a cron job that runs the script every X time.
 
-### Write a bash script
+### Write a bash script <a name="bash-1"></a>
 
 Note: the following steps assume you'd like to do stuff via command line, but you can create a script using a GUI text editor as well.
 
@@ -48,7 +54,7 @@ Note: the following steps assume you'd like to do stuff via command line, but yo
 
 7. **(If you're using vim)** Press <kbd>Esc</kbd> to go back to normal mode, then type `:wq` to save what you wrote (w) and exit (q). Use `q!` if you don't want to save what you wrote and just want to exit instead.
 
-### Schedule a cron job
+### Schedule a cron job <a name="cron-2"></a>
 
 5. Type `crontab -e` to schedule a cron job. Apparently, there are other ways to schedule a script, but this is the simplest I've found that works for me.
    
@@ -66,10 +72,10 @@ Note: the following steps assume you'd like to do stuff via command line, but yo
 
 7. Press <kbd>Esc</kbd> then type `:wq` to save and exit. Afterwards, you'll be prompted to allow Terminal to administer your computer - choose OK so that it works properly.
 
-### Final notes
+### Final notes <a name="final-notes-3"></a>
 
 8. You're done! Feel free to test this out by using a time that's like a minute or two away from your current time, just so that you'd see that it works as intended. P.S. After this, when you open Terminal, you might get notification saying "You have mail." If you want to clear that, just input `mail` to read the mail, keep on pressing <kbd>Enter</kbd> until you've read all the mail (if there are multiple), then input `q` to exit.
 
-## Questions?
+## Questions? <a name="questions"></a>
 
 Feel free to message me (@cvee) through Discord!
