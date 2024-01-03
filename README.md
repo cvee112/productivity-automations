@@ -36,7 +36,7 @@ Note: the following steps assume you'd like to do stuff via command line, but yo
     vim filename.sh
     ```
 
-5. **(For vim)** Press `i` for insert mode, then input something like:
+5. **(If using vim)** Press `i` for insert mode, then input something like:
 
     ```bash
     #!/bin/bash
@@ -51,7 +51,7 @@ Note: the following steps assume you'd like to do stuff via command line, but yo
     - You can use a different browser via `open -a browsername URL` as in `open -a firefox https://google.com`.
     - You can remove the second line if you don't want to go full screen.
 
-7. **(For vim)** Press <kbd>Esc</kbd> to go back to normal mode, then type `:wq` to save what you wrote (w) and exit (q). Use `q!` if you don't want to save what you wrote and just want to exit instead.
+7. **(If using vim)** Press <kbd>Esc</kbd> to go back to normal mode, then type `:wq` to save what you wrote (w) and exit (q). Use `q!` if you don't want to save what you wrote and just want to exit instead.
 
 ### Schedule a cron job <a name="cron-2"></a>
 
