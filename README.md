@@ -3,6 +3,8 @@ This is a collection of guides for productivity automations in OS X.
 
 **Disclaimer:** What follows works for my system, but please modify the steps as you see fit. I'm not an expert and I just figured this out by reading online and piecing together what works for me, so the guides here are mainly for people who don't have much coding experience but want to implement productivity automations via code. While this guide is specific to OS X, modifying parts should make this work in Linux as well.
 
+P.S. I've written only one guide so far - I might add to this as I create more automations for myself!
+
 ## Navigation
 [Automation 1: Schedule a URL to open every X o'clock](#automation-1)
 1. [Write a bash script](#bash-1)
