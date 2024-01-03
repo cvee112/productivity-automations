@@ -45,7 +45,7 @@ Note: the following steps assume you'd like to do stuff via command line, but yo
     /usr/bin/osascript -e 'tell application "System Events"' -e 'keystroke "f" using {control down, command down}' -e 'end tell' -e EOF
     ```
 
-    This opens GCal in day view in full screen mode via Arc, my default browser. 
+    When run, this opens GCal in day view in full screen mode via Arc, my default browser. 
 
     Feel free to modify this part however you like! For example:
     - You can use a different browser via `open -a browsername URL` as in `open -a firefox https://google.com`.
