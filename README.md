@@ -6,14 +6,12 @@ This is a collection of guides for productivity automations in OS X.
 **Disclaimer:** These work for my system, but modify the steps as you see fit! I'm not an expert and I just figured things out by reading online and piecing together what works for me. 
 
 ## Navigation
-[Automation 1: Schedule a URL to open every X o'clock](#automation-1)
-1. [Write a bash script](#bash-1)
-2. [Schedule a cron job](#cron-2)
-3. [Final notes](#final-notes-3)
-   
-[Automation X: Under construction](#tbc)
-
-[Questions?](#questions)
+1. [Automation 1: Schedule a URL to open every X o'clock](#automation-1)
+   1. [Write a bash script](#bash-1)
+   2. [Schedule a cron job](#cron-2)
+   3. [Final notes](#final-notes-3)
+2. [Automation X: Under construction](#tbc)
+3. [Questions?](#questions)
 
 ## Automation 1: Schedule a URL to open every X o'clock <a name="automation-1"></a>
 
