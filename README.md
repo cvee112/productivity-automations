@@ -3,7 +3,7 @@ This is a collection of guides for app-free (script-based) productivity automati
 
 **Who this is for:** People who don't have much coding experience but want to implement basic productivity automations without downloading an app. While I write guides with macOS in mind, modifying parts should make things work in Linux as well.
 
-**Disclaimer:** These work for my system, but modify the steps as you see fit! I'm not an expert and I just figured things out by reading online (e.g., Stack Overflow) and piecing together what works for me. 
+**Disclaimer:** These work for my system, but modify the steps as you see fit! I'm not an expert and I just figured things out by reading online (e.g., Stack Overflow) and piecing together what works. 
 
 ## Navigation
 1. [Automation 1: Schedule a URL to open every X o'clock](#automation-1)
