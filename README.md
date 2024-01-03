@@ -30,7 +30,7 @@ Note: the following steps assume you'd like to do stuff via command line, but yo
 
     The above works nicely if you want to execute your script from anywhere (i.e., not needing to navigate to its location) by typing an extensionless name, much like a regular command. This involves making the script executable with `chmod +x filename` and adding the folder containing the script to your `PATH` variable (if you'll do this, make sure to not mess up your `PATH` by mistake!).
 
-    You can also name it with the .sh extension, but this is optional and just adds clarity:
+    You can also name it with the .sh extension, but this is _optional_ and just adds clarity:
 
     ```console
     vim filename.sh
