@@ -1,5 +1,5 @@
 # Productivity Automations in OS X
-This is a collection of guides for productivity automations in OS X (P.S. I've written only one guide so far - I might add to this as I create more automations for myself!)
+This is a collection of guides for productivity automations in OS X.
 
 **Disclaimer:** What follows works for my system, but please modify the steps as you see fit. I'm not an expert and I just figured this out by reading online and piecing together what works for me, so the guides here are mainly for people who don't have much coding experience but want to implement productivity automations via code. While this guide is specific to OS X, modifying parts should make this work in Linux as well.
 
@@ -8,7 +8,7 @@ This is a collection of guides for productivity automations in OS X (P.S. I've w
 1. [Write a bash script](#bash-1)
 2. [Schedule a cron job](#cron-2)
 3. [Final notes](#final-notes-3)
-  
+[Automation X: To be continued](#tbc)
 [Questions?](#questions)
 
 ## Automation 1: Schedule a URL to open every X o'clock <a name="automation-1"></a>
@@ -75,6 +75,10 @@ Note: the following steps assume you'd like to do stuff via command line, but yo
 ### Final notes <a name="final-notes-3"></a>
 
 8. You're done! Feel free to test this out by using a time that's like a minute or two away from your current time, just so that you'd see that it works as intended. P.S. After this, when you open Terminal, you might get notification saying "You have mail." If you want to clear that, just input `mail` to read the mail, keep on pressing <kbd>Enter</kbd> until you've read all the mail (if there are multiple), then input `q` to exit.
+
+## Automation X: To be continued
+
+I'll add to this as I create more automations for myself!
 
 ## Questions? <a name="questions"></a>
 
